@@ -29,7 +29,7 @@ public class CellPhones extends ElectronicEquipment
 	public String toString() {
 		return "CellPhones [screenSize=" + screenSize + ", amountOfMemory="
 				+ amountOfMemory + ", getWeight()=" + getWeight()
-				+ ", getPowerUseage()=" + getPowerUseage() + ", getCost()="
+				+ ", getPowerUseage()=" + getPowerUseage() + "\n , getCost()="
 				+ getCost() + ", getNameOfManufacturer()="
 				+ getNameOfManufacturer() + ", getNameOfDevice()="
 				+ getNameOfDevice() + "]";

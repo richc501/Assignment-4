@@ -30,7 +30,7 @@ public class DigitalCameras extends ElectronicEquipment{
 		return "DigitalCameras [numberOfMegaPixels=" + numberOfMegaPixels
 				+ ", typeOfMemoryCard=" + typeOfMemoryCard + ", getWeight()="
 				+ getWeight() + ", getPowerUseage()=" + getPowerUseage()
-				+ ", getCost()=" + getCost() + ", getNameOfManufacturer()="
+				+ ", getCost()=" + getCost() + "\n , getNameOfManufacturer()="
 				+ getNameOfManufacturer() + ", getNameOfDevice()="
 				+ getNameOfDevice() + "]";
 	}
