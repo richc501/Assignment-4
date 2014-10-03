@@ -15,11 +15,11 @@ public class CoursesDemo {
 	{
 		Courses random = new Courses("Test", "Test", 1337, "Link");
 		
-		Chemistry chem = new Chemistry("Chemistry", "Science", 101, "U do Science stuff", true);
+		Courses chem = new Chemistry("Chemistry", "Science", 101, "U do Science stuff", true);
 		
-		ComputerScience CS = new ComputerScience("Computer Science", "Programming", 201,"U Code stuff", "Java","Eclipse");
+		Courses CS = new ComputerScience("Computer Science", "Programming", 201,"U Code stuff", "Java","Eclipse");
 		
-		Economics Eco = new Economics("Economics", "Social Science", 201, "U learn how Economy works", "Macro");
+		Courses Eco = new Economics("Economics", "Social Science", 201, "U learn how Economy works", "Macro");
 		
 		System.out.println("\n"+random);
 		
