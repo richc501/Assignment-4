@@ -3,10 +3,11 @@ package Courses;
 public class Economics extends Courses {
 	private String macroOrMicro;
 	public Economics(String title, String department, int courseNumber,
-			String description, String macroOrMicro) {
+			String description, String macroOrMicro) {//constructor
 		super(title, department, courseNumber, description);
 		this.macroOrMicro=macroOrMicro;
 	}
+	//getters and setters
 	public String getMacroOrMicro() {
 		return macroOrMicro;
 	}

@@ -2,20 +2,17 @@ package SportsStatistics;
 
 public class BasketballStatistics extends SportsStatistics{
 	private int numberOfRebounds, numberOfSteals, numberOfShots;
-	public BasketballStatistics()
-	{
-		
-	}
 	public BasketballStatistics(String playerTeam, String playerName,
-			int playerNumber, int numberOfPlayers, int gamesWon, int gamesLost, int numberOfRebounds, int numberOfSteals, int numberOfShots) {
-		super(playerTeam, playerName, playerNumber, numberOfPlayers, gamesWon,
+			int playerNumber, int gamesWon, int gamesLost, int numberOfRebounds, int numberOfSteals, int numberOfShots) 
+	{//Constructor
+		super(playerTeam, playerName, playerNumber, gamesWon,
 				gamesLost);
 		this.numberOfRebounds=numberOfRebounds;
 		this.numberOfSteals=numberOfSteals;
 		this.numberOfShots=numberOfShots;
 		
 	}
-
+	//getters and setters
 	public int getNumberOfRebounds() {
 		return numberOfRebounds;
 	}
@@ -39,11 +36,16 @@ public class BasketballStatistics extends SportsStatistics{
 	public void setNumberOfShots(int numberOfShots) {
 		this.numberOfShots = numberOfShots;
 	}
-
 	@Override
 	public String toString() {
 		return "BasketballStatistics [numberOfRebounds=" + numberOfRebounds
 				+ ", numberOfSteals=" + numberOfSteals + ", numberOfShots="
-				+ numberOfShots + "]";
+				+ numberOfShots + ", getPlayerName()=" + getPlayerName()
+				+ "\n, getPlayerTeam()=" + getPlayerTeam()
+				+ ", getPlayerNumber()=" + getPlayerNumber()
+				+ ", getGamesWon()=" + getGamesWon() + ", getGamesLost()="
+				+ getGamesLost() + "]";
 	}
+
+	
 }

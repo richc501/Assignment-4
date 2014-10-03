@@ -4,13 +4,14 @@ public class ReadingMaterials {
 	private int numberOfPages;
 	private String author, title;
 	
-	public ReadingMaterials(int numberOfPages, String author, String title){
+	public ReadingMaterials(int numberOfPages, String author, String title)
+	{//Constructor
 		super();
 		this.numberOfPages=numberOfPages;
 		this.author=author;
 		this.title=title;
 	}
-
+	//getters and setters
 	public int getNumberOfPages() {
 		return numberOfPages;
 	}

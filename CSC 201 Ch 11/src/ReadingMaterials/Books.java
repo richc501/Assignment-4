@@ -3,12 +3,14 @@ package ReadingMaterials;
 public class Books extends ReadingMaterials{
 	private int numberOfChapters, numberOfCharacters;
 	private String nameOfMainCharacter;
-	public Books(int numberOfPages, String author, String title, int numberOfChapters, int numberOfCharacters, String nameOfMainCharacter) {
+	public Books(int numberOfPages, String author, String title, int numberOfChapters, int numberOfCharacters, String nameOfMainCharacter) 
+	{ //Constructor
 		super(numberOfPages, author, title);
 		this.numberOfChapters=numberOfChapters;
 		this.numberOfCharacters=numberOfCharacters;
 		this.nameOfMainCharacter=nameOfMainCharacter;
 	}
+	//getters and setters
 	public int getNumberOfChapters() {
 		return numberOfChapters;
 	}

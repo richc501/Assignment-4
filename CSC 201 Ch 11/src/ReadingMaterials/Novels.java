@@ -4,11 +4,13 @@ public class Novels extends Books{
 	private int numberOfSquels;
 	public Novels(int numberOfPages, String author, String title,
 			int numberOfChapters, int numberOfCharacters,
-			String nameOfMainCharacter, int numberOfSquels) {
+			String nameOfMainCharacter, int numberOfSquels) 
+	{//Constructor 
 		super(numberOfPages, author, title, numberOfChapters, numberOfCharacters,
 				nameOfMainCharacter);
 		this.numberOfSquels=numberOfSquels;
 	}
+	//getters and setters
 	public int getNumberOfSquels() {
 		return numberOfSquels;
 	}

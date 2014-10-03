@@ -1,5 +1,20 @@
 package ReadingMaterials;
-
+//Richard Cunningham
+//Problem Statement
+//
+//Design and implement a set of classes that define various types of reading material: 
+//books, novels, magazines, technical journals, textbooks, and so on. Include data values 
+//that describe various attributes of the material, such as the number of pages and the names
+//of the primary characters. Include methods that are named appropriately for each class and 
+//that print an appropriate message. Create a main driver class to instantiate and exercise several of the classes.
+//
+//Directions
+//
+//Consider the problem, design an algorithm (or algorithms) that would solve the problem, and then implement the algorithm in Java.
+//Please insert the algorithm written in pseudocode as a comment in the beginning of your program.
+//Submit the source code, along with snapshots of your running program - you can take snapshots using PrintScreen, making sure that the console window in which you run the program appears on the screen.
+//Copy the snapshot in a word processing program of your choosing. If your program has different outcomes, take snapshots of each variation.
+//Upload your screenshots in Blackboard using the Assignment Upload area below.
 public class ReadingMaterialsDemo {
 
 	public static void main(String[] args) {

@@ -4,13 +4,14 @@ public class Courses {
 	private String title, description, department;
 	private int courseNumber;
 	public Courses(String title, String department, int courseNumber, String description)
-	{
+	{//constructor
 		super();
 		this.title=title;
 		this.department=department;
 		this.courseNumber=courseNumber;
 		this.description=description;
 	}
+	//getters and setters
 	public String getTitle() {
 		return title;
 	}

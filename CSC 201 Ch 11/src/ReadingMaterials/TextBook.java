@@ -2,11 +2,13 @@ package ReadingMaterials;
 
 public class TextBook extends ReadingMaterials {
 	private int numberOfVersions, numberOfUnits;
-	public TextBook(int numberOfPages, String author, String title, int numberOfVersions, int numberOfUnits) {
+	public TextBook(int numberOfPages, String author, String title, int numberOfVersions, int numberOfUnits) 
+	{//Constructor
 		super(numberOfPages, author, title);
 		this.numberOfVersions=numberOfVersions;
 		this.numberOfUnits=numberOfUnits;
 	}
+	//getters and setters
 	public int getNumberOfVersions() {
 		return numberOfVersions;
 	}

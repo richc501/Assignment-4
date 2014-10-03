@@ -1,24 +1,17 @@
 package SportsStatistics;
 public class SportsStatistics {
 	private String playerName, playerTeam;
-	private int playerNumber, numberOfPlayers, gamesWon, gamesLost;
-	public SportsStatistics()
-	{
-		playerTeam="No team";
-		playerName="No name";
-		playerNumber=0;
-		numberOfPlayers=0;
-	}
-	public SportsStatistics(String playerTeam, String playerName, int playerNumber, int numberOfPlayers, int gamesWon, int gamesLost)
-	{
+	private int playerNumber, gamesWon, gamesLost;
+	public SportsStatistics(String playerTeam, String playerName, int playerNumber, int gamesWon, int gamesLost)
+	{//Constructor
 		super();
 		this.playerTeam=playerTeam;
 		this.playerName=playerName;
 		this.playerNumber=playerNumber;
-		this.numberOfPlayers=numberOfPlayers;
 		this.gamesWon=gamesWon;
 		this.gamesLost=gamesLost;
 	}
+	//getters and setters
 	public String getPlayerName() {
 		return playerName;
 	}
@@ -37,12 +30,6 @@ public class SportsStatistics {
 	public void setPlayerNumber(int playerNumber) {
 		this.playerNumber = playerNumber;
 	}
-	public int getNumberOfPlayers() {
-		return numberOfPlayers;
-	}
-	public void setNumberOfPlayers(int numberOfPlayers) {
-		this.numberOfPlayers = numberOfPlayers;
-	}
 	public int getGamesWon() {
 		return gamesWon;
 	}
@@ -58,7 +45,6 @@ public class SportsStatistics {
 	@Override
 	public String toString() {
 		return "SportsStatistics [playerName=" + playerName + ", playerTeam="
-				+ playerTeam + ", playerNumber=" + playerNumber
-				+ ", numberOfPlayers=" + numberOfPlayers + "]";
+				+ playerTeam + ", playerNumber=" + playerNumber+"]";
 	}
 }

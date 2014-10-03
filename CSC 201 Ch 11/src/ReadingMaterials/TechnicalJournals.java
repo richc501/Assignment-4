@@ -2,10 +2,12 @@ package ReadingMaterials;
 
 public class TechnicalJournals extends ReadingMaterials {
 	private int numberOfEnteries;
-	public TechnicalJournals(int numberOfPages, String author, String title, int numberOfEnteries) {
+	public TechnicalJournals(int numberOfPages, String author, String title, int numberOfEnteries)
+	{//Constructor
 		super(numberOfPages, author, title);
 		this.numberOfEnteries=numberOfEnteries;
 	}
+	//getters and setters
 	public int getNumberOfEnteries() {
 		return numberOfEnteries;
 	}

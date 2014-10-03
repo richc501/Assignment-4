@@ -3,11 +3,12 @@ package Courses;
 public class ComputerScience extends Courses{
 	private String computerLanguage, programUsed;
 	public ComputerScience(String title, String department, int courseNumber,
-			String description, String computerLanguage, String programUsed) {
+			String description, String computerLanguage, String programUsed) {//constructors
 		super(title, department, courseNumber, description);
 		this.computerLanguage=computerLanguage;
 		this.programUsed=programUsed;
 	}
+	//getters and setters
 	public String getComputerLanguage() {
 		return computerLanguage;
 	}
